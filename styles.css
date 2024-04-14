@@ -8,6 +8,14 @@
     color: #CECECE;
 }
 
+/*Cores classes / id*/
+
+.vermelho{
+    color: #C53137;
+}
+
+/**/
+
 .btn-default{
     font-size: 2vw;
     padding-top: 1%;
@@ -36,3 +44,28 @@
     padding-top: 5%;
     justify-content: center;
 }
+
+/*Navbar */
+
+#logo{
+    max-width: 100px;
+    height: auto;
+}
+
+.navbar-brand{
+    font-size: 2.5vw;
+}
+
+.navbar-nav .nav-link.selected {
+    background-color: black;
+    color: white;
+  }
+  
+
+
+#flooat-esquerda{
+    margin-left: auto;
+    font-family: Kulim Park;
+    ;
+}
+/**/
