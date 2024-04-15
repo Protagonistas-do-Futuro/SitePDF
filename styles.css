@@ -5,8 +5,26 @@
     color: #CECECE;
 }
 
+<<<<<<< HEAD
 .subtitle-theme-2{
     color: black;
+=======
+/*Cores classes / id*/
+
+.vermelho{
+    color: #C53137;
+}
+
+/**/
+
+.btn-default{
+    font-size: 2vw;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 15px;
+>>>>>>> 9c34c6fcc90a4204a5c40710e0912c06c26dc531
 }
 
 .container-background1{
@@ -30,6 +48,7 @@
     justify-content: center;
 }
 
+<<<<<<< HEAD
 .button-color-1{
     background-color: #CECECE;
     border-color: #CECECE;
@@ -55,3 +74,29 @@
     justify-content: center;
     margin-top: 15%;
 }
+=======
+/*Navbar */
+
+#logo{
+    max-width: 100px;
+    height: auto;
+}
+
+.navbar-brand{
+    font-size: 2.5vw;
+}
+
+.navbar-nav .nav-link.selected {
+    background-color: black;
+    color: white;
+  }
+  
+
+
+#flooat-esquerda{
+    margin-left: auto;
+    font-family: Kulim Park;
+    ;
+}
+/**/
+>>>>>>> 9c34c6fcc90a4204a5c40710e0912c06c26dc531
