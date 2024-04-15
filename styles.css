@@ -1,29 +1,22 @@
 .title{
-    font-size: 4.5vw;
-    margin-bottom: 50px;
     color: #CECECE;
 }
-.subtitle{
-    font-size: 3vw;
+.subtitle-theme-1{
     color: #CECECE;
 }
 
-.btn-default{
-    font-size: 2vw;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    padding-left: 5%;
-    padding-right: 5%;
-    border-radius: 15px;
+.subtitle-theme-2{
+    color: black;
 }
+
 .container-background1{
-    height: 100vh;
+    height: 100dvh;
     padding-top: 5%;
     background-color: #646e6e;
 }
 
 .container-background2{
-    height: 100vh;
+    height: 100dvh;
     padding-top: 5%;
     background-image: url('images/background_0.png');
     background-repeat: no-repeat;
@@ -35,4 +28,30 @@
 .container-button{
     padding-top: 5%;
     justify-content: center;
+}
+
+.button-color-1{
+    background-color: #CECECE;
+    border-color: #CECECE;
+    color: black;
+}
+
+.button-color-2{
+    background-color: #AFADAD;
+    border-color: #AFADAD;
+    color: black;
+}
+
+.container-info{
+    margin-top: 3%;
+}
+
+.image-icon{
+    margin-right: 1%;
+}
+
+.image-position{
+    align-items: center;
+    justify-content: center;
+    margin-top: 15%;
 }
