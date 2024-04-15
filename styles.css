@@ -28,13 +28,13 @@
 
 .container-background1{
     height: 100dvh;
-    padding-top: 5%;
+    padding-top: 2%;
     background-color: #646e6e;
 }
 
 .container-background2{
     height: 100dvh;
-    padding-top: 5%;
+    padding-top: 2%;
     background-image: url('images/background_0.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -63,6 +63,15 @@
     margin-top: 3%;
 }
 
+.container-calendar{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #CECECE;
+    border-radius: 25px;
+}
+
 .image-icon{
     margin-right: 1%;
 }
@@ -87,7 +96,7 @@
 .navbar-nav .nav-link.selected {
     background-color: black;
     color: white;
-  }
+}
   
 
 
