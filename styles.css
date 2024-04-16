@@ -1,28 +1,23 @@
 /*Cores*/
 .theme-light-blue{
     color: #009DDC;
-    font-family: "Montserrat Alternates", Sans-serif;
 }
 
 .theme-white{
     color: #FFFFFF;
-    font-family: "Montserrat Alternates", Sans-serif;
 }
 
 .theme-black{
     color: black;
-    font-family: "Montserrat Alternates", Sans-serif;
 }
 
 .theme-dark-blue{
     color: #08377B;
-    font-family: "Montserrat Alternates", Sans-serif;
 }
 
 /*Cores classes / id*/
 .vermelho{
     color: #C53137;
-    font-family: "Montserrat Alternates", Sans-serif;
 }
 
 /**/
@@ -99,7 +94,6 @@
 }
 
 .button-1{
-    font-family: "Montserrat Alternates", Sans-serif;
     width: calc(50% + 70px);
     background-color: white;
     color: #08377B;
@@ -116,7 +110,6 @@
 }
 
 .button-2{
-    font-family: "Montserrat Alternates", Sans-serif;
     width: calc(50% + 70px);
     background-color: #08377B;
     color: white;
@@ -164,6 +157,5 @@
 #flooat-esquerda{
     margin-left: auto;
     font-family: Kulim Park;
-    ;
 }
 /**/
