@@ -106,6 +106,7 @@
     border-color: white;
     margin-bottom: 15px;
     border-radius: 15px;
+    font-size: calc(1.625rem + .3vw);
 }
 
 .button-1:hover{
@@ -115,12 +116,14 @@
 }
 
 .button-2{
-    margin-bottom: 15px;
     font-family: "Montserrat Alternates", Sans-serif;
+    width: calc(50% + 70px);
     background-color: #08377B;
-    border-color: #08377B;
     color: white;
+    border-color: #08377B;
+    margin-bottom: 15px;
     border-radius: 15px;
+    font-size: calc(1.625rem + .3vw);
 }
 
 .container-info{
