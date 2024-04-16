@@ -53,6 +53,12 @@
     background-size: cover;
 }
 
+.container-background5{
+    height: 30vh;
+    padding-top: 2%;
+    background-color: #08377B;
+}
+
 /*Notebook*/
 @media (max-width: 1702px){
     .container-background3{
