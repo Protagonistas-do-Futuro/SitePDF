@@ -54,7 +54,7 @@
 }
 
 .container-background5{
-    height: 30vh;
+    height: 15vh;
     padding-top: 2%;
     background-color: #08377B;
 }
@@ -142,6 +142,11 @@
 
 .image-icon{
     margin-right: 1%;
+}
+
+.image-footer{
+    width: 32px;
+    height: 32px;
 }
 
 /*Navbar */
