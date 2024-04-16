@@ -1,13 +1,22 @@
-.title{
-    color: #CECECE;
+/*Cores*/
+.title-theme-1{
+    color: #009DDC;
+}
+
+.title-theme-2{
+    color: #FFFFFF;
 }
 
 .subtitle-theme-1{
-    color: #CECECE;
+    color: #FFFFFF;
 }
 
 .subtitle-theme-2{
     color: black;
+}
+
+.subtitle-theme-3{
+    color: #08377B;
 }
 
 /*Cores classes / id*/
@@ -17,50 +26,85 @@
 
 /**/
 
-.btn-default{
-    font-size: 2vw;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    padding-left: 5%;
-    padding-right: 5%;
-    border-radius: 15px;
-}
-
+/*Background*/
 .container-background1{
-    height: 100dvh;
-    padding-top: 2%;
-    background-color: #646e6e;
-}
-
-.container-background2{
     height: 100dvh;
     padding-top: 2%;
     background-image: url('images/background_0.png');
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
     background-size: cover;
 }
 
+.container-background2{
+    height: 100dvh;
+    padding-top: 2%;
+    background-color: #009DDC;
+}
+
+.container-background3{
+    height: 100dvh;
+    padding-top: 2%;
+    background-color: #FFFFFF;
+}
+
+.container-background4{
+    height: 100dvh;
+    padding-top: 2%;
+    background-image: url('images/background_1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+@media (max-height: 800px) and (max-width: 1280px) {
+    .container-background2 {
+        height: calc(100vh + 100px);
+    }
+}
+
+@media (max-width: 473px) {
+    .container-background2 {
+        height: calc(100vh + 50px);
+    }
+}
+
+@media (max-width: 429px) {
+    .container-background2 {
+        height: calc(100vh + 100vh);
+    }
+}
+
+/*Button*/
 .container-button{
     padding-top: 5%;
     justify-content: center;
 }
 
-.button-color-1{
-    background-color: #CECECE;
-    border-color: #CECECE;
-    color: black;
+.button-1{
+    width: calc(50% + 70px);
+    background-color: white;
+    color: #08377B;
+    border-color: white;
+    margin-bottom: 15px;
+    border-radius: 15px;
 }
 
-.button-color-2{
-    background-color: #AFADAD;
-    border-color: #AFADAD;
-    color: black;
+.button-1:hover{
+    background-color: rgb(180, 180, 180);
+    color: #08377B;
+    border-color: rgb(180, 180, 180);
+}
+
+.button-2{
+    background-color: #08377B;
+    border-color: #08377B;
+    color: white;
+    border-radius: 15px;
 }
 
 .container-info{
-    margin-top: 3%;
+    margin-top: 1%;
 }
 
 .container-calendar{
