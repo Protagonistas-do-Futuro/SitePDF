@@ -193,6 +193,14 @@
     margin-right: 50px;
 }
 
+.container-footer{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
 .image-icon{
     margin-right: 1%;
 }
