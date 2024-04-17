@@ -60,6 +60,16 @@
 }
 
 /*Notebook*/
+@media (max-height: 940px){
+    .container-background2{
+        height: auto;
+    }
+
+    .container-background3{
+        height: auto;
+    }
+}
+
 @media (max-width: 1702px){
     .container-background3{
         height: auto;
@@ -127,17 +137,29 @@
     margin-bottom: 20px;
 }
 
+.button-2:hover{
+    background-color: #0A1E3D;
+    color: #FFFFFF;
+    border-color: #0A1E3D;
+}
+
 .container-info{
     margin-top: 1%;
 }
 
 .container-calendar{
-    display: flex;
+    float: left;
+    width: 120px;
+    height: 25px;
+    background-color: #08377B;
+    border-radius: 25px;
     text-align: center;
     align-items: center;
     justify-content: center;
-    background-color: #08377B;
-    border-radius: 25px;
+}
+
+.container-cronogram{
+    margin-left: 130px;
 }
 
 .image-icon{
