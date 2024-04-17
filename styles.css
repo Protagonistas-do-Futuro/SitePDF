@@ -100,7 +100,7 @@
 }
 
 /*Celular horizontal*/
-@media (max-height: 450px){
+@media (max-height: 674px){
     .container-background1{
         height: auto;
     }
@@ -145,6 +145,29 @@
     border-color: #06244E;
 }
 
+.button-1-lg{
+    width: calc(50% + 70px);
+    background-color: white;
+    color: #08377B;
+    border-color: white;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    font-size: calc(1.625rem + .3vw);
+    margin-bottom: 20px;
+}
+
+.button-1-lg:hover{
+    background-color: #06244E;
+    color: #FFFFFF;
+    border-color: #06244E;
+}
+
+@media (max-width: 991px){
+    .button-1-lg{
+        height: calc(93px + .65vw)
+    }
+}
+
 .button-2{
     width: calc(50% + 70px);
     background-color: #08377B;
@@ -161,6 +184,8 @@
     color: #FFFFFF;
     border-color: #0A1E3D;
 }
+
+
 
 .container-info{
     margin-top: 1%;
@@ -194,11 +219,7 @@
 }
 
 .container-footer{
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    justify-items: center;
-    text-align: center;
+    padding: 50px;
 }
 
 .image-icon{
