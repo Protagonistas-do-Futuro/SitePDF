@@ -165,7 +165,7 @@
 
 .container-calendar{
     float: left;
-    margin-top: 6px;
+    margin-top: 5px;
     width: 120px;
     height: 25px;
     background-color: #08377B;
@@ -179,13 +179,19 @@
     margin-left: 130px;
 }
 
-.image-icon{
-    margin-right: 1%;
-}
-
 .container-icon{
     margin-left: 5%;
     margin-right: 5%;
+}
+
+.container-partner{
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.image-icon{
+    margin-right: 1%;
 }
 
 /*Navbar */
