@@ -165,7 +165,7 @@
 
 .container-calendar{
     float: left;
-    margin-top: 5px;
+    margin-top: 4px;
     width: 120px;
     height: 25px;
     background-color: #08377B;
@@ -186,8 +186,8 @@
 
 .container-partner{
     margin-top: 20px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .image-icon{
