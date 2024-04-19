@@ -20,7 +20,15 @@
     color: #C53137;
 }
 
-/**/
+/*Tamanho fonte*/
+.font-1{
+    font-size: 18px;
+}
+
+.font-2{
+    font-size: 25px;
+}
+
 
 /*Background*/
 .container-background1{
@@ -124,16 +132,15 @@
 
 /*Button*/
 .container-button{
-    padding-top: 5%;
     justify-content: center;
 }
 
 .button-1{
+    padding: 20px;
     width: calc(50% + 70px);
     background-color: white;
     color: #08377B;
     border-color: white;
-    margin-bottom: 15px;
     border-radius: 15px;
     font-size: calc(1.625rem + .3vw);
     margin-bottom: 20px;
@@ -146,6 +153,7 @@
 }
 
 .button-1-lg{
+    padding: 20px;
     width: calc(50% + 70px);
     background-color: white;
     color: #08377B;
@@ -164,12 +172,12 @@
 
 @media (max-width: 991px){
     .button-1-lg{
-        height: calc(93px + .65vw)
+        height: calc(121px + .65vw)
     }
 }
 
 .button-2{
-    width: calc(50% + 70px);
+    width: calc(20% + 110px);
     background-color: #08377B;
     color: white;
     border-color: #08377B;
@@ -177,6 +185,8 @@
     border-radius: 15px;
     font-size: calc(1.625rem + .3vw);
     margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .button-2:hover{
@@ -194,17 +204,18 @@
 .container-calendar{
     float: left;
     margin-top: 4px;
-    width: 120px;
-    height: 25px;
+    width: 145px;
+    height: 35px;
     background-color: #08377B;
     border-radius: 25px;
     text-align: center;
     align-items: center;
     justify-content: center;
+    align-content: center;
 }
 
 .container-cronogram{
-    margin-left: 130px;
+    margin-left: 155px;
 }
 
 .container-icon{
