@@ -53,8 +53,9 @@
 }
 
 .container-background4{
-    height: 100vh;
+    height: auto;
     padding-top: 2%;
+    padding-bottom: 2%;
     background-image: url('images/background_1.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -82,6 +83,7 @@
     .container-background3{
         height: auto;
     }
+
 }
 
 @media (max-width: 1702px){
@@ -236,6 +238,52 @@
 .image-icon{
     margin-right: 1%;
 }
+
+/* Carousel */
+
+.carousel-item .card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .carousel-item .carousel-img {
+    width: 45%; /* Tamanho fixo da imagem */
+    height: 45%; /* Tamanho fixo da imagem */
+    border-radius: 10px; /* Cantos arredondados */
+  }
+  .carousel-item .card-content {
+    width: calc(100% - 170px); /* Largura da div - largura da imagem */
+  }
+
+  /* Personalização do tamanho do ícone */
+  .fab.fa-linkedin {
+    font-size: 1.5em; /* Tamanho do ícone */
+    margin-right: 5px;/* Espaçamento à direita */
+  }
+  .card-text{
+    font-size: 1em;
+  }
+
+  @media (max-width: 576px){
+
+    .carousel-item .card {
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      .carousel-item .carousel-img {
+        width: 80%; /* Tamanho fixo da imagem */
+        height: 80%; /* Tamanho fixo da imagem */
+        border-radius: 10px; /* Cantos arredondados */
+      }
+      .carousel-item .card-content {
+        width: auto; /* Largura da div - largura da imagem */
+      }
+    
+}
+
+/**/
 
 /*Navbar */
 
