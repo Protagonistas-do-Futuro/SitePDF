@@ -53,7 +53,7 @@
 }
 
 .container-background4{
-    height: auto;
+    height: 100vh;
     padding-top: 2%;
     padding-bottom: 2%;
     background-image: url('images/background_1.png');
@@ -242,14 +242,15 @@
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 500px; /* Definindo altura fixa */
   }
   .carousel-item .carousel-img {
-    width: 45%; /* Tamanho fixo da imagem */
-    height: 45%; /* Tamanho fixo da imagem */
+    width: 400px; /* Tamanho fixo da imagem */
+    height: 400px; /* Tamanho fixo da imagem */
     border-radius: 10px; /* Cantos arredondados */
   }
   .carousel-item .card-content {
-    width: calc(100% - 170px); /* Largura da div - largura da imagem */
+    width: 100%; /* Largura da div - largura da imagem */
   }
 
   /* Personalização do tamanho do ícone */
@@ -259,24 +260,53 @@
   }
   .card-text{
     font-size: 1em;
+    text-align: justify;
   }
 
-  @media (max-width: 576px){
+  @media (max-width: 767px) {
 
     .carousel-item .card {
         background-color: #fff;
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        height: auto;
       }
       .carousel-item .carousel-img {
-        width: 80%; /* Tamanho fixo da imagem */
-        height: 80%; /* Tamanho fixo da imagem */
+        width: 50%; /* Tamanho fixo da imagem */
+        height: 50%; /* Tamanho fixo da imagem */
         border-radius: 10px; /* Cantos arredondados */
       }
       .carousel-item .card-content {
-        width: auto; /* Largura da div - largura da imagem */
+        width: 100%; /* Largura da div - largura da imagem */
       }
+
+      .card-text{
+        font-size: 1.1em;
+      }
+
+    .container-background4{
+        height: 140vh;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        filter: invert(100%); /* Inverte a cor da seta para preto */
+        width: 28px;
+    }
+
+    .carousel-control-next, 
+    .carousel-control-prev {
+        width: 8% !important;
+
+    }
     
+}
+
+@media (max-width: 350px){
+    
+    .container-background4{
+        height: 200vh;
+    }
 }
 
 /**/
