@@ -322,15 +322,17 @@
     font-size: 2.5vw;
 }
 
+.nav-item .nav-link{
+    font-size: 1.2rem;
+}
+
 .navbar-nav .nav-link.selected {
     background-color: black;
     color: white;
 }
   
-
-
 #flooat-esquerda{
     margin-left: auto;
-    font-family: Kulim Park;
+    font-family: "Montserrat";
 }
 /**/
