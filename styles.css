@@ -200,6 +200,8 @@
 }
 
 .container-calendar{
+    display: flex;
+    flex-wrap: wrap;
     float: left;
     margin-top: 3px;
     width: 145px;
