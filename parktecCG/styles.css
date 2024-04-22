@@ -1,0 +1,338 @@
+/*Cores*/
+.theme-light-blue{
+    color: #009DDC;
+}
+
+.theme-white{
+    color: #FFFFFF;
+}
+
+.theme-black{
+    color: black;
+}
+
+.theme-dark-blue{
+    color: #08377B;
+}
+
+/*Cores classes / id*/
+.vermelho{
+    color: #C53137;
+}
+
+/*Tamanho fonte*/
+.font-1{
+    font-size: 18px;
+}
+
+.font-2{
+    font-size: calc(1.275rem + .3vw)
+}
+
+
+/*Background*/
+.container-background1{
+    height: 100vh;
+    padding-top: 2%;
+    background-image: url('../images/background_0.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container-background2{
+    height: 100vh;
+    padding-top: 2%;
+    background-color: #009DDC;
+}
+
+.container-background3{
+    height: 100vh;
+    padding-top: 2%;
+    background-color: #FFFFFF;
+}
+
+.container-background4{
+    height: 100vh;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-image: url('../images/background_1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container-background5{
+    height: 100vh;
+    padding-top: 2%;
+    background-color: #FFFFFF;
+}
+
+.container-background6{
+    height: auto;
+    padding-top: 2%;
+    background-color: #08377B;
+}
+
+/*Notebook*/
+@media (max-height: 940px){
+    .container-background2{
+        height: auto;
+    }
+
+    .container-background3{
+        height: auto;
+    }
+
+}
+
+@media (max-width: 1702px){
+    .container-background3{
+        height: auto;
+    }
+    .container-background5{
+        height: auto;
+    }
+}
+
+@media (max-width: 1366px) and (max-height: 800px) {
+    .container-background2 {
+        height: auto;
+    }
+
+    .container-background5{
+        height: auto;
+    }
+}
+
+/*Celular horizontal*/
+@media (max-height: 674px){
+    .container-background1{
+        height: auto;
+    }
+    .container-background2{
+        height: auto;
+    }
+    .container-background5{
+        height: auto;
+    }
+}
+
+/*Celular vertical*/
+@media (max-width: 473px) {
+    .container-background2 {
+        height: auto;
+    }
+    .container-background5{
+        height: auto;
+    }
+}
+
+/*Button*/
+.container-button{
+    justify-content: center;
+}
+
+.button-1{
+    padding: 20px;
+    width: calc(50% + 70px);
+    background-color: white;
+    color: #08377B;
+    border-color: white;
+    border-radius: 15px;
+    font-size: calc(1.625rem + .3vw);
+    margin-bottom: 20px;
+}
+
+.button-1:hover{
+    background-color: #06244E;
+    color: #FFFFFF;
+    border-color: #06244E;
+}
+
+.button-1-lg{
+    padding: 20px;
+    width: calc(50% + 70px);
+    background-color: white;
+    color: #08377B;
+    border-color: white;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    font-size: calc(1.625rem + .3vw);
+    margin-bottom: 20px;
+}
+
+.button-1-lg:hover{
+    background-color: #06244E;
+    color: #FFFFFF;
+    border-color: #06244E;
+}
+
+@media (max-width: 991px){
+    .button-1-lg{
+        height: calc(121px + .65vw)
+    }
+}
+
+.button-2{
+    width: calc(20% + 110px);
+    background-color: #08377B;
+    color: white;
+    border-color: #08377B;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    font-size: calc(1.625rem + .3vw);
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.button-2:hover{
+    background-color: #0A1E3D;
+    color: #FFFFFF;
+    border-color: #0A1E3D;
+}
+
+
+
+.container-info{
+    margin-top: 1%;
+}
+
+.container-calendar{
+    float: left;
+    margin-top: 3px;
+    width: 145px;
+    height: 35px;
+    background-color: #08377B;
+    border-radius: 25px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.container-cronogram{
+    margin-left: 155px;
+}
+
+.container-icon{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.container-partner{
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.container-footer{
+    padding: 50px;
+}
+
+.image-icon{
+    margin-right: 1%;
+}
+
+/* Carousel */
+
+.carousel-item .card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 500px; /* Definindo altura fixa */
+  }
+  .carousel-item .carousel-img {
+    width: 400px; /* Tamanho fixo da imagem */
+    height: 400px; /* Tamanho fixo da imagem */
+    border-radius: 10px; /* Cantos arredondados */
+  }
+  .carousel-item .card-content {
+    width: 100%; /* Largura da div - largura da imagem */
+  }
+
+  /* Personalização do tamanho do ícone */
+  .fab.fa-linkedin {
+    font-size: 1.5em; /* Tamanho do ícone */
+    margin-right: 5px;/* Espaçamento à direita */
+  }
+  .card-text{
+    font-size: 1em;
+    text-align: justify;
+  }
+
+  @media (max-width: 767px) {
+
+    .carousel-item .card {
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        height: auto;
+      }
+      .carousel-item .carousel-img {
+        width: 50%; /* Tamanho fixo da imagem */
+        height: 50%; /* Tamanho fixo da imagem */
+        border-radius: 10px; /* Cantos arredondados */
+      }
+      .carousel-item .card-content {
+        width: 100%; /* Largura da div - largura da imagem */
+      }
+
+      .card-text{
+        font-size: 1.1em;
+      }
+
+    .container-background4{
+        height: 140vh;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        filter: invert(100%); /* Inverte a cor da seta para preto */
+        width: 28px;
+    }
+
+    .carousel-control-next, 
+    .carousel-control-prev {
+        width: 8% !important;
+
+    }
+    
+}
+
+@media (max-width: 350px){
+    
+    .container-background4{
+        height: 200vh;
+    }
+}
+
+/**/
+
+/*Navbar */
+
+#logo{
+    max-width: 100px;
+    height: auto;
+}
+
+.navbar-brand{
+    font-size: 2.5vw;
+}
+
+.nav-item .nav-link{
+    font-size: 1.2rem;
+}
+
+.navbar-nav .nav-link.selected {
+    background-color: black;
+    color: white;
+}
+  
+#flooat-esquerda{
+    margin-left: auto;
+    font-family: "Montserrat";
+}
+/**/
