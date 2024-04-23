@@ -244,7 +244,8 @@
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    height: 500px; /* Definindo altura fixa */
+    height: auto;
+    width: 70%;
   }
   .carousel-item .carousel-img {
     width: 400px; /* Tamanho fixo da imagem */
@@ -261,9 +262,62 @@
     margin-right: 5px;/* Espaçamento à direita */
   }
   .card-text{
-    font-size: 1em;
+    font-size: calc(1.1em + 0.3vw);
     text-align: justify;
   }
+
+  .palestrantes{
+    font-size: calc(1.1em + 0.9vw);
+  }
+
+  .palestranteNome{
+
+    font-size: calc(1.1em + 0.7vw);
+  }
+
+  @media (min-width: 768px) and (max-width: 1500px) {
+
+    .carousel-item .card {
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        height: auto;
+        width: 100%;
+        height: auto;
+      }
+      .carousel-item .carousel-img {
+        width: 50%; /* Tamanho fixo da imagem */
+        height: 55%; /* Tamanho fixo da imagem */
+        border-radius: 10px; /* Cantos arredondados */
+      }
+
+      .carousel-item .card-content {
+        width: 100%; 
+      }
+
+      .card-text{
+        font-size: calc(0.9em + 0.5vw); 
+      }
+
+
+    .container-background4{
+        height: 169vh;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        filter: invert(100%); /* Inverte a cor da seta para preto */
+        width: 28px;
+    }
+
+    .carousel-control-next, 
+    .carousel-control-prev {
+        width: 8% !important;
+
+    }
+
+    
+}
 
   @media (max-width: 767px) {
 
@@ -272,22 +326,24 @@
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         height: auto;
+        width: 100%;
       }
       .carousel-item .carousel-img {
         width: 50%; /* Tamanho fixo da imagem */
-        height: 50%; /* Tamanho fixo da imagem */
+        height: 55%; /* Tamanho fixo da imagem */
         border-radius: 10px; /* Cantos arredondados */
       }
       .carousel-item .card-content {
-        width: 100%; /* Largura da div - largura da imagem */
+        width: 100%; 
       }
 
       .card-text{
-        font-size: 1.1em;
+        font-size: calc(0.9em + 0.5vw); 
       }
 
+
     .container-background4{
-        height: 140vh;
+        height: 160vh;
     }
 
     .carousel-control-prev-icon,
