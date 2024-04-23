@@ -419,9 +419,9 @@
     font-size: 1.2rem;
 }
 
-.navbar-nav .nav-link.selected {
+.selected {
     background-color: black;
-    color: white;
+    color: white !important;
 }
   
 #flooat-esquerda{
