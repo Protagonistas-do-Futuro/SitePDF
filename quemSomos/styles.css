@@ -58,8 +58,7 @@
 
 .container-bio{
     display: flex;
-    padding-bottom: 150px;
-    justify-content: space-between;
+    padding-bottom: 75px;
 }
 
 @media (max-width: 991px){
