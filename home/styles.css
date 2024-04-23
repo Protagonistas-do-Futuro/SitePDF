@@ -33,11 +33,15 @@
     font-size: calc(1.1rem + .3vw)
 }
 
+.subtitle{
+    font-family: "Montserrat";
+    font-size: 1.5rem;
+}
 /*Background*/
 .container-background1{
     height: 100vh;
     padding-top: 2%;
-    background-image: url('images/background_0.png');
+    background-image: url('imagens/Frame\ 1.svg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -46,42 +50,29 @@
 .container-background2{
     height: 100vh;
     padding-top: 2%;
-    background-color: #009DDC;
-}
-
-.container-background3{
-    height: 100vh;
-    padding-top: 2%;
-    background-color: #FFFFFF;
-}
-
-.container-background4{
-    height: 100vh;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    background-image: url('images/background_1.png');
+    background-image: url('imagens/fundo_coringa.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
-.container-background5{
+.container-background3{
     height: 100vh;
     padding-top: 2%;
-    background-color: #FFFFFF;
+    background-image: url('imagens/Frame\ 2.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
-.container-background6{
-    height: auto;
-    padding-top: 2%;
-    background-color: #08377B;
+#grupo{
+
+    width: 100%;
 }
+
 
 /*Notebook*/
-@media (max-height: 940px){
-    .container-background2{
-        height: auto;
-    }
+@media (max-height: 940px){ 
 
     .container-background3{
         height: auto;
@@ -406,6 +397,11 @@
 #logo{
     width: 5vw;
     height: auto;
+}
+
+.navbar{
+    background-color: #E0E0E0 !important; 
+    ;
 }
 
 .navbar-brand{
