@@ -29,6 +29,9 @@
     font-size: calc(1.275rem + .3vw)
 }
 
+.font-navbar{
+    font-size: calc(1.1rem + .3vw)
+}
 
 /*Background*/
 .container-background1{
