@@ -49,6 +49,7 @@
 
 .container-background3{
     height: 100vh;
+    padding-bottom: 50px;
     padding-top: 2%;
     background-color: #BD1D65;
 }
@@ -178,7 +179,7 @@
 .button-2{
     width: calc(20% + 110px);
     background-color: #83BE40;
-    color: black;
+    color: white;
     border-color: #83BE40;
     margin-bottom: 15px;
     border-radius: 15px;
@@ -201,11 +202,13 @@
 }
 
 .container-calendar{
+    display: flex;
+    flex-wrap: wrap;
     float: left;
     margin-top: 3px;
     width: 145px;
     height: 35px;
-    background-color: #BD1D65;
+    background-color: #08377B;
     border-radius: 25px;
     text-align: center;
     align-items: center;
