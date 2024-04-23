@@ -1,0 +1,131 @@
+/*Cores*/
+.theme-light-blue{
+    color: #009DDC;
+}
+
+.theme-white{
+    color: #FFFFFF;
+}
+
+.theme-black{
+    color: black;
+}
+
+.theme-dark-blue{
+    color: #08377B;
+}
+
+/*Cores classes / id*/
+.vermelho{
+    color: #C53137;
+}
+
+/*Tamanho fonte*/
+.font-1{
+    font-size: 18px;
+}
+
+.font-2{
+    font-size: calc(1.275rem + .3vw)
+}
+
+.font-navbar{
+    font-size: calc(1.1rem + .3vw)
+}
+
+/*Background*/
+.container-background1{
+    height: auto;
+    padding-top: 2%;
+    background-image: url('images/background_0.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container-background6{
+    height: auto;
+    padding-top: 2%;
+    background-color: white;
+}
+
+/*Celular horizontal*/
+@media (max-height: 674px){
+    .container-background1{
+        height: auto;
+    }
+}
+
+.container-bio{
+    display: flex;
+    padding-bottom: 8%;
+    justify-content: space-between;
+}
+
+@media (max-width: 991px){
+    .container-bio{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.container-icon{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.container-footer{
+    padding: 50px;
+}
+
+.image-icon{
+    margin-right: 1%;
+}
+
+/*Navbar */
+
+.navbar-brand {
+    display: flex;
+    align-items: center; /* Alinha verticalmente */
+ }
+  
+.navbar-brand img {
+    height: auto;
+}
+
+@media (min-width: 1024px){
+
+    .navbar-brand{
+        font-size: 1.5vw !important;
+    }
+
+    #logo{
+        width: 3vw !important;
+        height: auto;
+    }
+
+}
+  
+#logo{
+    width: 5vw;
+    height: auto;
+}
+
+.navbar-brand{
+    font-size: 2.5vw;
+}
+
+.nav-item .nav-link{
+    font-size: 1.2rem;
+}
+
+.navbar-nav .nav-link.selected {
+    background-color: black;
+    color: white;
+}
+  
+#flooat-esquerda{
+    margin-left: auto;
+    font-family: "Montserrat";
+}
+/**/
