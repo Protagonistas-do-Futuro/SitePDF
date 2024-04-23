@@ -399,13 +399,9 @@
     height: auto;
 }
 
-.navbar{
-    background-color: #E0E0E0 !important; 
-    ;
-}
-
 .navbar-brand{
     font-size: 2.5vw;
+    padding-left: 25px;
 }
 
 .nav-item .nav-link{
@@ -421,4 +417,19 @@
     margin-left: auto;
     font-family: "Montserrat";
 }
+
+.font-family-navbar{
+    font-family: -apple-system, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans';
+    margin: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.font-navbar{
+    font-family: -apple-system, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans';
+    margin: 0;
+    font-size: calc(1.2rem + 0.1vw);
+}
+
+
 /**/

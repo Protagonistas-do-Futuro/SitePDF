@@ -58,7 +58,7 @@
 
 .container-bio{
     display: flex;
-    padding-bottom: 8%;
+    padding-bottom: 150px;
     justify-content: space-between;
 }
 
@@ -93,6 +93,13 @@
     height: auto;
 }
 
+@media (max-width: 768px) {
+        
+    #prota{
+        margin-right: .25rem !important;
+    }
+}
+
 @media (min-width: 1024px){
 
     .navbar-brand{
@@ -113,6 +120,7 @@
 
 .navbar-brand{
     font-size: 2.5vw;
+    padding-left: 25px;
 }
 
 .nav-item .nav-link{
@@ -128,4 +136,19 @@
     margin-left: auto;
     font-family: "Montserrat";
 }
+
+.font-family-navbar{
+    font-family: -apple-system, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans';
+    margin: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.font-navbar{
+    font-family: -apple-system, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans';
+    margin: 0;
+    font-size: calc(1.2rem + 0.1vw);
+}
+
+
 /**/
