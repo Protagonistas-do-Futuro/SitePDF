@@ -383,6 +383,13 @@
     height: auto;
 }
 
+@media (max-width: 768px) {
+        
+    #prota{
+        margin-right: .25rem !important;
+    }
+}
+
 @media (min-width: 1024px){
 
     .navbar-brand{
