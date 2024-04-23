@@ -374,8 +374,30 @@
 
 /*Navbar */
 
+.navbar-brand {
+    display: flex;
+    align-items: center; /* Alinha verticalmente */
+ }
+  
+.navbar-brand img {
+    height: auto;
+}
+
+@media (min-width: 1024px){
+
+    .navbar-brand{
+        font-size: 1.5vw !important;
+    }
+
+    #logo{
+        width: 3vw !important;
+        height: auto;
+    }
+
+}
+  
 #logo{
-    max-width: 100px;
+    width: 5vw;
     height: auto;
 }
 
