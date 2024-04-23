@@ -34,22 +34,23 @@
 .container-background1{
     height: 100vh;
     padding-top: 2%;
-    background-image: url('../images/background_0.png');
+    background-image: url('images/background_0.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .container-background2{
-    height: 100vh;
+    height: auto;
     padding-top: 2%;
-    background-color: #009DDC;
+    padding-bottom: 50px;
+    background-color: #3E4E65;
 }
 
 .container-background3{
     height: 100vh;
     padding-top: 2%;
-    background-color: #FFFFFF;
+    background-color: #BD1D65;
 }
 
 .container-background4{
@@ -136,26 +137,26 @@
 .button-1{
     padding: 20px;
     width: calc(50% + 70px);
-    background-color: white;
-    color: #08377B;
-    border-color: white;
+    background-color: #BD1D65;
+    color: white;
+    border-color: #BD1D65;
     border-radius: 15px;
     font-size: calc(1.625rem + .3vw);
     margin-bottom: 20px;
 }
 
 .button-1:hover{
-    background-color: #06244E;
+    background-color: #94144e;
     color: #FFFFFF;
-    border-color: #06244E;
+    border-color: #94144e;
 }
 
 .button-1-lg{
     padding: 20px;
     width: calc(50% + 70px);
-    background-color: white;
-    color: #08377B;
-    border-color: white;
+    background-color: #BD1D65;
+    color: white;
+    border-color: #BD1D65;
     margin-bottom: 15px;
     border-radius: 15px;
     font-size: calc(1.625rem + .3vw);
@@ -163,9 +164,9 @@
 }
 
 .button-1-lg:hover{
-    background-color: #06244E;
+    background-color: #94144e;
     color: #FFFFFF;
-    border-color: #06244E;
+    border-color: #94144e;
 }
 
 @media (max-width: 991px){
@@ -176,9 +177,9 @@
 
 .button-2{
     width: calc(20% + 110px);
-    background-color: #08377B;
-    color: white;
-    border-color: #08377B;
+    background-color: #83BE40;
+    color: black;
+    border-color: #83BE40;
     margin-bottom: 15px;
     border-radius: 15px;
     font-size: calc(1.625rem + .3vw);
@@ -188,9 +189,9 @@
 }
 
 .button-2:hover{
-    background-color: #0A1E3D;
-    color: #FFFFFF;
-    border-color: #0A1E3D;
+    background-color: #55792c;
+    color: white;
+    border-color: #55792c;
 }
 
 
@@ -204,7 +205,7 @@
     margin-top: 3px;
     width: 145px;
     height: 35px;
-    background-color: #08377B;
+    background-color: #BD1D65;
     border-radius: 25px;
     text-align: center;
     align-items: center;
