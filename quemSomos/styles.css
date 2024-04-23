@@ -83,6 +83,14 @@
 
 /*Navbar */
 
+.navbar{
+    padding: 0px !important;
+}
+
+.nav-link{
+    padding: 0px !important;
+}
+
 .navbar-brand {
     display: flex;
     align-items: center; /* Alinha verticalmente */
@@ -129,6 +137,7 @@
 .selected {
     background-color: black;
     color: white !important;
+    height: 7vh;
 }
   
 #flooat-esquerda{
