@@ -30,6 +30,7 @@
 }
 
 
+
 /*Background*/
 .container-background1{
     height: 100vh;
@@ -423,4 +424,14 @@
     margin-left: auto;
     font-family: "Montserrat";
 }
+/**/
+
+/* Imagens */
+
+#sedepe-logo{
+    width: 80%;
+    height: auto;
+}
+
+
 /**/
