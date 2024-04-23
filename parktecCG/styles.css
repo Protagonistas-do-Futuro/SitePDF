@@ -30,6 +30,7 @@
 }
 
 
+
 /*Background*/
 .container-background1{
     height: 100vh;
@@ -65,7 +66,7 @@
 }
 
 .container-background5{
-    height: 100vh;
+    height: auto;
     padding-top: 2%;
     background-color: #fff;
 }
@@ -388,4 +389,14 @@
     margin-left: auto;
     font-family: "Montserrat";
 }
+/**/
+
+/* Imagens */
+
+#sedepe-logo{
+    width: 80%;
+    height: auto;
+}
+
+
 /**/
