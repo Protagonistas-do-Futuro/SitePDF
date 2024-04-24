@@ -438,6 +438,7 @@
   
 #flooat-esquerda{
     margin-left: auto;
+    align-items: center !important;
     font-family: "Montserrat";
 }
 
@@ -457,13 +458,44 @@
 
 /**/
 
+/*Parceiros Section*/
+
+.especial{
+    height: 20vh;
+}
+
+.especial2{
+    height: 26vh;
+}
+
+.img-parceiros{
+
+    height: 29vh;
+}
+.img-fluid {
+    max-width: 100%; /* Tamanho máximo da imagem igual à largura do contêiner pai */
+    display: inline-block; /* Exibir as imagens como blocos em linha */
+    vertical-align: top; /* Alinhar as imagens no topo */
+    margin: 0 auto 30px; /* Centralizar as imagens horizontalmente e adicionar margem na parte inferior */
+}
+
+
+@media (min-width: 768px) {
+    .container-partner {
+        text-align: center; /* Alinhar o texto ao centro em telas maiores */
+    }
+
+    .img-fluid {
+        max-width: 80%; /* Reduzir um pouco o tamanho máximo da imagem em telas maiores */
+    }
+}
+
+
+/**/
+
 
 /* Imagens */
 
-#sedepe-logo{
-    width: 80%;
-    height: auto;
-}
 
 
 /**/

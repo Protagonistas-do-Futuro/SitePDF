@@ -437,6 +437,7 @@
   
 #flooat-esquerda{
     margin-left: auto;
+    align-items: center !important;
     font-family: "Montserrat";
 }
 
