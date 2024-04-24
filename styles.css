@@ -82,6 +82,7 @@
 @media (max-height: 940px){
     .container-background2{
         height: auto;
+        padding-bottom: 50px;
     }
 
     .container-background3{
@@ -98,6 +99,7 @@
     }
     .container-background5{
         height: auto;
+        padding-bottom: 50px;
     }
 }
 
@@ -108,6 +110,7 @@
 
     .container-background5{
         height: auto;
+        padding-bottom: 50px;
     }
 }
 
@@ -121,6 +124,7 @@
     }
     .container-background5{
         height: auto;
+        padding-bottom: 50px;
     }
 }
 
@@ -131,6 +135,7 @@
     }
     .container-background5{
         height: auto;
+        padding-bottom: 50px;
     }
 }
 
@@ -181,16 +186,15 @@
 }
 
 .button-2{
-    width: calc(20% + 110px);
+    width: calc(40% + 150px);
+    padding-left: 40px;
+    padding-right: 40px;
     background-color: #08377B;
     color: white;
     border-color: #08377B;
-    margin-bottom: 15px;
     border-radius: 15px;
     font-size: calc(1.625rem + .3vw);
     margin-bottom: 20px;
-    margin-left: 50px;
-    margin-right: 50px;
 }
 
 .button-2:hover{

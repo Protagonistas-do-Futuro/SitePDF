@@ -41,7 +41,7 @@
 .container-background1{
     height: 100vh;
     padding-top: 2%;
-    background-image: url('imagens/Frame\ 1.svg');
+    background-image: url('imagens/background_0.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -50,6 +50,7 @@
 .container-background2{
     height: 100vh;
     padding-top: 2%;
+    padding-bottom: 50px;
     background-image: url('imagens/fundo_coringa.jpg');
     background-repeat: no-repeat;
     background-position: center;
@@ -59,17 +60,29 @@
 .container-background3{
     height: 100vh;
     padding-top: 2%;
-    background-image: url('imagens/Frame\ 2.svg');
+    padding-bottom: 50px;
+    background-image: url('imagens/background_0.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
-
 #grupo{
 
     width: 100%;
 }
 
+@media (max-width: 985px){ 
+
+    .container-background1{
+        height: auto;
+        padding-bottom: 50px;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+}
 
 /*Notebook*/
 @media (max-height: 940px){ 
@@ -114,9 +127,6 @@
 
 /*Celular vertical*/
 @media (max-width: 473px) {
-    .container-background2 {
-        height: auto;
-    }
     .container-background5{
         height: auto;
     }
