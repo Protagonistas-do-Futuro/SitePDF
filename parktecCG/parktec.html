@@ -23,16 +23,16 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mb-2 mb-lg-0" id="flooat-esquerda">
           <li class="nav-item">
-            <a class="nav-link" href="../home/index.html"><p class="theme-black font-family-navbar">Home</p></a>
+            <a class="nav-link" href="../home/index.html" onclick="selectNavItem(this)"><p class="theme-black font-family-navbar">Home</p></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link selected" href="#"><p class="theme-black font-family-navbar selected">Tech & Invest CG</p></a>
+            <a class="nav-link" href="#" onclick="selectNavItem(this)"><p class="theme-black font-family-navbar">Tech & Invest CG</p></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../index.html"><p class="theme-black font-family-navbar">Be T3ch</p></a>
+            <a class="nav-link" href="../index.html" onclick="selectNavItem(this)"><p class="theme-black font-family-navbar">Be T3ch</p></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../quemSomos/quemSomos.html"><p class="theme-black font-family-navbar">Quem Somos</p></a>
+            <a class="nav-link" href="../quemSomos/quemSomos.html" onclick="selectNavItem(this)"><p class="theme-black font-family-navbar">Quem Somos</p></a>
           </li>
         </ul>
       </div>
@@ -41,18 +41,18 @@
 
     <section>
       <div class="container-fluid text-center container-background1" style="padding-top: 10%;">
-        <p class="display-1 theme-black">
+        <p class="display-1 theme-black" style="padding-bottom: 20px;">
           Tech & Invest CG
         </p>
         <br>
-        <p class="display-6 theme-black"><i>Trilhando a Rota da Inovação Empreendedora</i></p>
+        <p class="display-6 theme-black"><i>Trilhando a Rota da Inovação <span style="color: #94144e;">Empreendedora</span></i></p>
         <br>
         <p class="display-6 theme-black">Unindo o ecossistema de tecnologia do Mato Grosso do Sul</p>
         <br>
         <p class="fs-3 theme-black"><b>8 e 9 de Maio no Parktec CG</b></p>
         <br>
         <div class="container d-flex container-button">
-          <div class="container-fluid row">
+          <div class="container-fluid row" style="margin-top: 20px;">
             <div class="col">
               <a href="#mentorias"><button type="button" class="btn btn-secundary button-1-lg" >Mentorias</button></a>
             </div>
@@ -67,7 +67,7 @@
     <section id="mentorias">
       <div class="container-fluid container-background3">
         <div class="container-fluid" style="margin-left: 10px;">
-          <p class="display-5 theme-white"><b>Mentorias</b></p>
+          <p class="display-5 theme-white"><b>Mentorias para Startups</b></p>
         </div>
         <div class="container-fluid row">
           <div class="col">
@@ -81,27 +81,30 @@
               <i class="fa-solid fa-map-pin fa-2x image-icon" style="color: #f9062b;"></i>
               <p class="fs-4 theme-white">Parktec CG, Av. Rachid Neder, 748 - Monte Castelo, Campo Grande - MS</p>
             </div>
-            <div class="container d-flex" style="margin-top: 30px; margin-bottom: 15px; width: 90%; float: left;">
+            <div class="container d-flex" style="margin-top: 50px; margin-bottom: 15px; width: 90%; float: left;">
               <img class="img-fluid" src="images/parktec.png" alt="image1">
             </div>
           </div>
           <div class="col d-flex" style="flex-direction: column;">
-            <p class="fs-4 theme-white">
+            <p class="fs-4 theme-white" style="margin: 0;">
               A Darwin é uma aceleradora que busca investir em startups com potencial para se tornarem grandes negócios, 
-              fornecendo recursos e apoios a essas Startups a fim de desenvolver o ecossistema empreendedor. 
-              Atualmente existem dois programas dentro da Darwin, o <b>Aceleração Darwin Startups</b>, que possui foco nos ramos empresariais de Fintechs, 
-              TI & Telecom e Big Data & Analytics, provendo investimentos em Startups Early Stage de até <b>R$500 mil</b> e o <b>Black Founders Fund</b>, 
-              que fornece, em conjunto com o Google for Startups, recursos financeiros - sem qualquer contrapartida ou participação societária - 
-              e apoio prático para ajudar empreendedores negros e negras a construírem e expandirem seus negócios. O primeiro dia de evento será 
-              dedicado exclusivamente a uma série de mentorias, realizadas por um representante da Darwin: Murilo Domingos, para a ocasião, serão 
-              selecionadas 10 startups para participar dessas mentorias e obter contato direto com a aceleradora. É importante frisar que cada startup 
-              deverá realizar a agenda de horário dentro do período de realização do evento.
+              fornecendo recursos e apoios para Startups com objetivo de desenvolver o ecossistema empreendedor.
+            </p>
+            <p class="fs-4 theme-white" style="margin: 0;">Atualmente existem dois programas dentro da Darwin: <b>Aceleração Darwin Startups</b>, que possui foco nos ramos empresariais de Fintechs, 
+              TI & Telecom e Big Data & Analytics, provendo investimentos em Startups Early Stage de até <b>R$500 mil</b>; e o <b>Black Founders Fund</b>, 
+              que fornece, em conjunto com o <b>Google for Startups</b>, recursos financeiros - sem qualquer contrapartida ou participação societária - 
+              e apoio prático para ajudar empreendedores negros e negras a construírem e expandirem seus negócios.
+            </p>
+            <p class="fs-4 theme-white">O primeiro dia de evento será 
+              dedicado exclusivamente a uma série de mentorias, realizadas por um representante da Darwin Startups: Murilo Domingos. Para a ocasião, serão 
+              selecionadas 10 startups para participar das mentorias e obter contato direto com a aceleradora. É importante frisar que cada startup 
+              deverá agendar o horário dentro do formulário de inscrição das mentorias.
             </p>
             <br>
-            <p class="fs-5 theme-white">
-              Vagas limitadas, garanta já a sua participação!
+            <p class="fs-5 theme-white" style="margin-bottom: 30px;">
+              *Vagas limitadas, garanta já a sua participação!
             </p>
-            <div class="container d-flex" style="justify-content: center; margin-top: auto;">
+            <div class="container d-flex" style="justify-content: center; margin-top: auto; align-items: center;">
               <button type="button" class="btn btn-primary button-2">Inscreva-se</button>
             </div>
           </div>
@@ -112,7 +115,7 @@
     <section id="palestras">
       <div class="container-fluid container-background2">
         <div class="container-fluid" style="margin-left: 10px;">
-          <p class="display-5 theme-white"><b>Palestras</b></p>
+          <p class="display-5 theme-white"><b>Palestras de Empreendedorismo e Tecnologia</b></p>
           <br>
           <div class="container d-flex" style="margin-top: 1%; margin-left: 0;">
             <i class="fa-regular fa-calendar fa-2x image-icon" style="color: #FFFFFF;"></i>
@@ -120,7 +123,7 @@
           </div>
           <div class="container d-flex" style="margin-top: 1%; margin-left: 0;">
             <i class="fa-solid fa-map-pin fa-2x image-icon" style="color: #FFFFFF;"></i>
-            <p class="fs-4 theme-white">Parktec, Av. Rachid Neder, 748 - Monte Castelo, Campo Grande - MS</p>
+            <p class="fs-4 theme-white">Parktec CG, Av. Rachid Neder, 748 - Monte Castelo, Campo Grande - MS</p>
           </div>
         </div>
         <div class="container-fluid row" style="margin-top: 3%;">
@@ -192,14 +195,14 @@
             <div class="container">
               <div class="container-calendar"><span class="font-1 theme-white"><b>14:00 - 14:30</b></span></div>
               <div class="container-cronogram">
-                <p class="font-2 theme-white">Desmitificando a Inteligência Artificial: Prof. Bruno Nogueira</p>
+                <p class="font-2 theme-white">Desmitificando a Inteligência Artificial: Prof. Bruno Nogueira (UFMS)</p>
               </div>
             </div>
 
             <div class="container">
               <div class="container-calendar"><span class="font-1 theme-white"><b>14:30 - 15:00</b></span></div>
               <div class="container-cronogram">
-                <p class="font-2 theme-white">Inovação na Bolsa de Valores Brasileira: Giulio De Souza</p>
+                <p class="font-2 theme-white">Inovação na Bolsa de Valores Brasileira: Giulio De Souza (B3)</p>
               </div>
             </div>
 
@@ -255,9 +258,10 @@
                 <img src="images/murilo_darwin.jpeg" class="img-fluid carousel-img mb-3 mb-md-0" alt="...">
                 <div class="card-body card-content">
                   <h3 class="mb-4 palestrantes">Palestrantes</h3>
-                  <h5 class="card-title palestranteNome">Murilo Domingos</h5>
+                  <h5 class="card-title palestranteNome" style="padding-bottom: 10px;">Murilo Domingos</h5>
                   <h6 class="card-subtitle mb-2 text-muted d-flex align-items-center">
-                    <a href="https://www.linkedin.com/in/murilodomingos/" target="_blank"><i class="fab fa-linkedin"></i></a> Partner at Darwin Startups
+                    <a href="https://www.linkedin.com/in/murilodomingos/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <p class="fs-5" style="margin: 0; padding-left: 5px;">Partner at Darwin Startups</p>
                   </h6>
                   <p class="card-text">Empreendedor e entusiasta de tecnologia, Murilo Domingos é sócio da Darwin Startups, 
                     onde já liderou os processos seletivos dos programas de aceleração e, atualmente, é responsável 
@@ -273,9 +277,10 @@
                 <img src="../images/Giulio_Castor.jpeg" class="img-fluid carousel-img mb-3 mb-md-0" alt="...">
                 <div class="card-body card-content">
                   <h3 class="mb-4 palestrantes">Palestrantes</h3>
-                  <h5 class="card-title palestranteNome">Giulio Castor</h5>
+                  <h5 class="card-title palestranteNome" style="padding-bottom: 10px;">Giulio Castor</h5>
                   <h6 class="card-subtitle mb-2 text-muted d-flex align-items-center">
-                    <a href="https://www.linkedin.com/in/giulio-castor/" target="_blank"><i class="fab fa-linkedin"></i></a> Governança de TI e Inovação
+                    <a href="https://www.linkedin.com/in/giulio-castor/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <p class="fs-5" style="margin: 0; padding-left: 5px;">Governança de TI e Inovação</p>
                   </h6>
                   <p class="card-text">Formado em Analise e Desenvolvimento de Sistemas na UNOPAR, é Analista de TI na B3, trabalhou 
                     com atendimento de auditorias externas e migrou para a área de Inovação da B3. 
@@ -288,9 +293,10 @@
                 <img src="images/marcelo_parktec.jpg" class="img-fluid carousel-img mb-3 mb-md-0" alt="...">
                 <div class="card-body card-content">
                   <h3 class="mb-4 palestrantes">Palestrantes</h3>
-                  <h5 class="card-title  palestranteNome">Marcelo Demirdjian</h5>
+                  <h5 class="card-title  palestranteNome" style="padding-bottom: 10px;">Marcelo Demirdjian</h5>
                   <h6 class="card-subtitle mb-2 text-muted d-flex align-items-center">
-                    <a href="https://www.linkedin.com/in/marcelo-bonotto-demirdjian-588533102/" target="_blank"><i class="fab fa-linkedin"></i></a> Coordenar Jurídico - Parktec CG
+                    <a href="https://www.linkedin.com/in/marcelo-bonotto-demirdjian-588533102/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <p class="fs-5" style="margin: 0; padding-left: 5px;">Coordenar Jurídico - Parktec CG</p>
                   </h6>
                   <p class="card-text">Advogado, Mestre em Direito Político e Econômico e Pós-Graduado em Direito Processual 
                     Civil pela Univerisdade Presbiteriana Mackenzie - UPM; Membro Correspondente da Comissão de Estudos da Concorrência e 
@@ -305,9 +311,10 @@
                 <img src="../images/taina_xavier.jpeg" class="img-fluid carousel-img mb-3 mb-md-0" alt="...">
                 <div class="card-body card-content">
                   <h3 class="mb-4 palestrantes">Palestrantes</h3>
-                  <h5 class="card-title  palestranteNome">Tainã Xavier</h5>
+                  <h5 class="card-title  palestranteNome" style="padding-bottom: 10px;">Tainã Xavier</h5>
                   <h6 class="card-subtitle mb-2 text-muted d-flex align-items-center">
-                    <a href="https://www.linkedin.com/in/tainaxsp/" target="_blank"><i class="fab fa-linkedin"></i></a> Data Scientist
+                    <a href="https://www.linkedin.com/in/tainaxsp/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <p class="fs-5" style="margin: 0; padding-left: 5px;">Data Scientist</p>
                   </h6>
                   <p class="card-text">Cientista de dados na B3, foi professora de inglês por 16 anos. 
                     É a representante nacional da ONG Generation, além de ser uma das vencedoras do 
@@ -323,9 +330,10 @@
                 <img src="../images/paula_abrahao.jpeg" class="img-fluid carousel-img mb-3 mb-md-0" alt="...">
                 <div class="card-body card-content">
                   <h3 class="mb-4 palestrantes">Palestrantes</h3>
-                  <h5 class="card-title palestranteNome">Paula Abrahão</h5>
+                  <h5 class="card-title palestranteNome" style="padding-bottom: 10px;">Paula Abrahão</h5>
                   <h6 class="card-subtitle mb-2 text-muted d-flex align-items-center">
-                    <a href="https://www.linkedin.com/in/paula-abrahao/" target="_blank"><i class="fab fa-linkedin"></i></a> Head de IA
+                    <a href="https://www.linkedin.com/in/paula-abrahao/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <p class="fs-5" style="margin: 0; padding-left: 5px;">Head de Inteligência Artificial</p>
                   </h6>
                   <p class="card-text">Head de Inteligência Artificial (IA) na B3 com mais de 15 anos de experiência na área de tecnologia, 
                     sempre focada em resolver problemas através dos dados, gerando resultados e melhorarando a experiência do cliente.
@@ -342,9 +350,10 @@
                 <img src="images/leila_da_silva.jpeg" class="img-fluid carousel-img mb-3 mb-md-0" alt="...">
                 <div class="card-body card-content">
                   <h3 class="mb-4 palestrantes">Palestrantes</h3>
-                  <h5 class="card-title palestranteNome">Leila da Silva Oliveira Farias</h5>
+                  <h5 class="card-title palestranteNome" style="padding-bottom: 10px;">Leila da Silva Oliveira Farias</h5>
                   <h6 class="card-subtitle mb-2 text-muted d-flex align-items-center">
-                    <a href="https://www.linkedin.com/in/leilasoliveira/" target="_blank"><i class="fab fa-linkedin"></i></a> Arquitetura Corporativa
+                    <a href="https://www.linkedin.com/in/leilasoliveira/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <p class="fs-5" style="margin: 0; padding-left: 5px;">Arquitetura Corporativa</p>
                   </h6>
                   <p class="card-text">Mãe, esposa de dev PHP, arquiteta corporativa na B3 e muito Java na veia! Sou bacharel 
                     em Sistemas de Informação pela Universidade Nove de Julho com MBA em Arquitetura de Software e Soluções pela 
@@ -372,9 +381,9 @@
     <section>
       <div class="container-fluid container-background5 mb-5">
         <div class="container-fluid text-center">
-          <p class="display-4 theme-black">Parceiros</p>
+          <p class="display-4 theme-black" style="margin-top: 50px;">Parceiros</p>
         </div>
-        <div class="row text-center">
+        <div class="row text-center" style="padding-left: 20px; padding-right: 20px;">
           <div class="col-md-6 col-lg-4 p-1 container-partner">
             <img class="img-fluid img-parceiros" src="../images/b3_.png" alt="B3" style="margin-bottom: 30px;">
             <p class="fs-6 theme-black">A B3 é uma das principais empresas de infraestrutura de mercado financeiro do mundo, com atuação em ambiente de bolsa e de balcão. A B3 é uma das principais empresas de infraestrutura de mercado financeiro do mundo, com atuação em ambiente de bolsa e de balcão.A B3 é uma das principais empresas de infraestrutura de mercado financeiro do mundo, com atuação em ambiente de bolsa e de balcão.</p>
