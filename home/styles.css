@@ -375,6 +375,14 @@
 
 /*Navbar */
 
+.navbar{
+    padding: 0px !important;
+}
+
+.nav-link{
+    padding: 0px !important;
+}
+
 .navbar-brand {
     display: flex;
     align-items: center; /* Alinha verticalmente */
@@ -418,9 +426,10 @@
     font-size: 1.2rem;
 }
 
-.navbar-nav .nav-link.selected {
+.selected {
     background-color: black;
-    color: white;
+    color: white !important;
+    height: 7vh;
 }
   
 #flooat-esquerda{
