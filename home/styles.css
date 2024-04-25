@@ -92,6 +92,10 @@
         align-items: center;
     }
 
+    .container-background2{
+        height: auto;
+    }
+
 }
 
 /*Notebook*/
