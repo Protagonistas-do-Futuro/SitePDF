@@ -81,6 +81,10 @@
     margin-right: 1%;
 }
 
+.container-description{
+    text-align: justify;
+}
+
 /*Navbar */
 
 .navbar{
