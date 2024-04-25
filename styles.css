@@ -224,6 +224,16 @@
     align-content: center;
 }
 
+.container-iconcalendar{
+    display: flex;
+    float: left;
+    margin-top: 3px;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
 .container-cronogram{
     margin-left: 155px;
 }

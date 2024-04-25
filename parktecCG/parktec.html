@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
-    <script src="https://kit.fontawesome.com/7349811c4a.js" crossorigin="anonymous"></script>
     <title>Protagonistas do Futuro
     </title>
     <script src="script.js"></script>
@@ -73,13 +72,17 @@
           <div class="col">
             <p class="fs-3 theme-white" style="margin-left: 10px;">Por Murilo Domingos, representante da Darwin Startups.</p>
             <br>
-            <div class="container d-flex" style="margin-top: 1%;">
-              <i class="fa-regular fa-calendar fa-2x image-icon" style="color: #FFFFFF;"></i>
-              <p class="fs-4 theme-white">08 de Maio de 2024, das 09:00 às 11:00 e das 14:00 às 17:00</p>
+            <div class="container">
+              <div class="container-iconcalendar"><img src="../icon/calendar-white.svg" alt="calendar-white" style="width: 30px;"></div>
+              <div>
+                <p class="fs-4 theme-white" style="margin-left: 40px;">08 de Maio de 2024, das 09:00 às 11:00 e das 14:00 às 17:00</p>
+              </div>
             </div>
-            <div class="container d-flex" style="margin-top: 1%;">
-              <i class="fa-solid fa-map-pin fa-2x image-icon" style="color: #f9062b;"></i>
-              <p class="fs-4 theme-white">Parktec CG, Av. Rachid Neder, 748 - Monte Castelo, Campo Grande - MS</p>
+            <div class="container" style="margin-top: 20px;">
+              <div class="container-iconcalendar"><img src="../icon/pin-red.svg" alt="pin-red" style="width: 25px;"></div>
+              <div>
+                <p class="fs-4 theme-white" style="margin-left: 40px;">Parktec CG, Av. Rachid Neder, 748 - Monte Castelo, Campo Grande - MS</p>
+              </div>
             </div>
             <div class="container d-flex" style="margin-top: 50px; margin-bottom: 15px; width: 90%; float: left;">
               <img class="img-fluid" src="images/parktec.png" alt="image1">
@@ -117,15 +120,18 @@
         <div class="container-fluid" style="margin-left: 10px;">
           <p class="display-5 theme-white"><b>Palestras de Empreendedorismo e Tecnologia</b></p>
           <br>
-          <div class="container d-flex" style="margin-top: 1%; margin-left: 0;">
-            <i class="fa-regular fa-calendar fa-2x image-icon" style="color: #FFFFFF;"></i>
-            <p class="fs-4 theme-white">09 de Maio de 2024, das 08:30 às 19:00</p>
+          <div class="container-fluid">
+            <div class="container-iconcalendar"><img src="../icon/calendar-white.svg" alt="calendar-white" style="width: 30px;"></div>
+            <div>
+              <p class="fs-4 theme-white" style="margin-left: 40px;">09 de Maio de 2024, das 08:30 às 18:00</p>
+            </div>
           </div>
-          <div class="container d-flex" style="margin-top: 1%; margin-left: 0;">
-            <i class="fa-solid fa-map-pin fa-2x image-icon" style="color: #FFFFFF;"></i>
-            <p class="fs-4 theme-white">Parktec CG, Av. Rachid Neder, 748 - Monte Castelo, Campo Grande - MS</p>
+          <div class="container-fluid" style="margin-top: 20px;">
+            <div class="container-iconcalendar"><img src="../icon/pin-white.svg" alt="pin-white" style="width: 25px;"></div>
+            <div>
+              <p class="fs-4 theme-white" style="margin-left: 40px;">Parktec CG, Av. Rachid Neder, 748 - Monte Castelo, Campo Grande - MS</p>
+            </div>
           </div>
-        </div>
         <div class="container-fluid row" style="margin-top: 3%;">
           <div class="col">
             <div class="container">
@@ -427,8 +433,14 @@
           </div>
           <div class=" col-md-6 col-lg-4 p-1 container-partner">
             <a href="https://www.campogrande.ms.gov.br/"><img class="img-fluid especial mt-5" src="images/prefcg.png" alt="Prefeitura de Campo Grande MS logo" style="margin-bottom: 30px;"></a>
-            <p class="fs-5 theme-black">A Universidade Federal de Mato Grosso do Sul (UFMS) tem mais de 40 anos de tradição no ensino superior no estado. Atualmente, conta campi em nove cidades: Aquidauana, Chapadão do Sul, Corumbá, Coxim, Naviraí, Nova Andradina, Paranaíba, Ponta Porã e Três Lagoas, contribuindo para descentralizar o ensino e atender à demanda de várias regiões do MS. Com cursos de graduação e pós-graduação, ambos presenciais e a distância, realiza um forte estímulo às atividades de pesquisa e de extensão. 
-              No Índice Geral de Cursos (ICG), criado pelo MEC, a UFMS foi considerada a melhor universidade de Mato Grosso do Sul em 2018, com conceito 4, que vai de 1 até 5.</p>
+            <p class="fs-5 theme-black">
+              A Prefeitura de Campo Grande, capital do Mato Grosso do Sul, é uma 
+              instituição com décadas de história e dedicação ao desenvolvimento da cidade. 
+              Presente em diversos pontos da cidade, os órgãos municipais oferecem suporte e assistência em áreas como saúde, educação, 
+              infraestrutura, cultura e lazer. Além disso, a prefeitura está empenhada em fomentar o desenvolvimento econômico e social da região, 
+              criando oportunidades de emprego e investimento. Por meio de parcerias com o setor privado e iniciativas de incentivo ao empreendedorismo, 
+              busca-se fortalecer a economia local e proporcionar um ambiente favorável ao crescimento sustentável.
+            </p>
           </div>
         </div>
       </div>
@@ -442,10 +454,11 @@
               <p class="fs-4 theme-white">Siga-nos nas redes sociais!</p>
             </div>
             <div class="col d-flex" style="justify-content: center;">
-              <div class="container-icon"><i class="fa-brands fa-instagram fa-2xl" style="color: #ffffff;"></i></div>
-              <div class="container-icon"><i class="fa-brands fa-linkedin fa-2xl" style="color: #ffffff;"></i></div>
-              <div class="container-icon"><i class="fa-regular fa-envelope fa-2xl" style="color: #ffffff;"></i></div>
+              <div class="container-icon"><img src="../icon/instagram-white.svg" alt="instagram" style="width: 30px;"></div>
+              <div class="container-icon"><img src="../icon/linkedin-white.svg" alt="linkedin" style="width: 30px;"></div>
+              <div class="container-icon"><img src="../icon/envelope-white.svg" alt="email" style="width: 35px;"></div>
             </div>
+          </div>
           </div>
         </div>
       </footer>
