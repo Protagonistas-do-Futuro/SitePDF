@@ -396,6 +396,11 @@
     padding: 0px !important;
 }
 
+.centralizado{
+    display: grid;
+    align-items: center;
+}
+
 .navbar-brand {
     display: flex;
     align-items: center; /* Alinha verticalmente */

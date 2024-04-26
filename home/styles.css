@@ -437,6 +437,11 @@
     height: auto;
 }
 
+.centralizado{
+    display: grid;
+    align-items: center;
+}
+
 @media (max-width: 768px) {
         
     #prota{
