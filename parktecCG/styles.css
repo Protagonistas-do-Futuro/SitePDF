@@ -475,18 +475,8 @@
 
 /*Parceiros Section*/
 
-.especial{
-    height: 20vh;
-}
 
-.especial2{
-    height: 26vh;
-}
 
-.img-parceiros{
-
-    height: 29vh;
-}
 .img-fluid {
     max-width: 100%; /* Tamanho máximo da imagem igual à largura do contêiner pai */
     display: inline-block; /* Exibir as imagens como blocos em linha */
