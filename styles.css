@@ -90,6 +90,10 @@
         padding-bottom: 50px;
     }
 
+    .container-background5{
+        height: auto;
+        padding-bottom: 50px;
+    }
 }
 
 @media (max-width: 1702px){
