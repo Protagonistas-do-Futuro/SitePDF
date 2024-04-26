@@ -144,6 +144,11 @@
     color: white !important;
     height: 7vh;
 }
+
+.centralizado{
+    display: grid;
+    align-items: center;
+}
   
 #flooat-esquerda{
     margin-left: auto;
