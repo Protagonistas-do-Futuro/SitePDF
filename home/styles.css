@@ -67,10 +67,20 @@
     background-size: cover;
 }
 
+.container-background4{
+    height: 100vh;
+    padding-top: 2%;
+    padding-bottom: 50px;
+    background-image: url('imagens/background_1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 .container-background6{
     height: auto;
     padding-top: 2%;
-    background-image: url('imagens/background_1.png');
+    background-image: url('imagens/background_0.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

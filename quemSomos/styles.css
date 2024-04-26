@@ -59,6 +59,7 @@
 .container-bio{
     display: flex;
     padding-bottom: 75px;
+    align-items: center !important;
 }
 
 @media (max-width: 1201px){
