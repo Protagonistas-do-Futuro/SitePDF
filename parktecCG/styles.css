@@ -182,12 +182,14 @@
 
 .button-2{
     width: calc(40% + 150px);
+    padding-left: 40px;
+    padding-right: 40px;
     background-color: #83BE40;
     color: white;
     border-color: #83BE40;
-    margin-bottom: 15px;
     border-radius: 15px;
     font-size: calc(1.625rem + .3vw);
+    margin-bottom: 20px;
 }
 
 .button-2:hover{
