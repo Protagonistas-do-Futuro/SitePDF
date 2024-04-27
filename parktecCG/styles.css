@@ -45,7 +45,10 @@
     height: auto;
     padding-top: 2%;
     padding-bottom: 50px;
-    background-color: #BD1D65;
+    background-image: url('images/background_2.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .container-background3{
@@ -185,8 +188,6 @@
     margin-bottom: 15px;
     border-radius: 15px;
     font-size: calc(1.625rem + .3vw);
-    margin-left: 50px;
-    margin-right: 50px;
 }
 
 .button-2:hover{
