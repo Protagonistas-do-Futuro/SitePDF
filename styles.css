@@ -67,7 +67,8 @@
 }
 
 .container-background5{
-    height: 100vh;
+    height: auto;
+    padding-bottom: 50px;
     padding-top: 2%;
     background-color: #FFFFFF;
 }
@@ -252,6 +253,7 @@
     margin-top: 20px;
     margin-left: 50px;
     margin-right: 50px;
+    min-width: 250px;
 }
 
 .container-footer{
