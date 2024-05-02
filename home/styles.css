@@ -68,7 +68,7 @@
 }
 
 .container-background4{
-    height: auto;
+    height: 100vh;
     padding-top: 2%;
     padding-bottom: 50px;
     background-image: url('imagens/background_1.png');
@@ -155,6 +155,9 @@
         height: auto;
     }
     .container-background3{
+        height: auto;
+    }
+    .container-background4{
         height: auto;
     }
 }
