@@ -244,6 +244,24 @@
     margin-left: 155px;
 }
 
+#alternativa-responsiva{
+    display: none;
+}
+
+@media (max-width: 576px){
+    #alternativa-responsiva{
+        display: grid;
+    }
+
+    #bloquear{
+        display: none;
+    }
+    .container-cronogram{
+        
+        margin-left: 0px;
+    }
+}
+
 .container-icon{
     margin-left: 5%;
     margin-right: 5%;
