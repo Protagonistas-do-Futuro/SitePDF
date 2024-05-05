@@ -42,7 +42,7 @@
 }
 
 .container-background2{
-    height: auto;
+    height: 100vh;
     padding-top: 2%;
     padding-bottom: 50px;
     background-image: url('images/background_2.svg');
